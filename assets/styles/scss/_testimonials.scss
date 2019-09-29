@@ -1,0 +1,42 @@
+
+.testimonial-slider {
+  display: none;
+
+}
+.testimonial-text {
+  padding: 2rem 2rem 2rem 2rem;
+  @include breakpoint(medium) {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
+
+.star-rating {
+  margin: auto;
+}
+.star-rating img {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+
+.testimonialPanel {
+  padding: 2rem;
+background: $light-gray;
+margin-bottom: 30px;
+border-radius: $global-radius;
+-webkit-border-radius: $global-radius;
+-moz-border-radius: $global-radius;
+}
+
+
+.testimonial-container {
+  padding: 0rem 0.7rem;
+}
+.testimonial {
+  background: white;
+  padding: 2rem;
+  border-radius: $global-radius;
+  -moz-border-radius: $global-radius;
+  -webkit-border-radius: $global-radius;
+}

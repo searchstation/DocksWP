@@ -1,0 +1,86 @@
+{
+    "key": "group_5d160f23d759b",
+    "title": "Staff",
+    "fields": [
+        {
+            "key": "field_5d160f2ed1a49",
+            "label": "Position",
+            "name": "position",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d160f74d1a4a",
+            "label": "Bio",
+            "name": "bio",
+            "type": "text",
+            "instructions": "Online required for management staff with large profile pictures.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d160f90d1a4b",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "The image needs to be cropped square with a preferred size of 500px by 500px",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 400,
+            "min_height": 400,
+            "min_size": "",
+            "max_width": 800,
+            "max_height": 800,
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "staff"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1561726945
+}

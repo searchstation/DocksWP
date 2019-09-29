@@ -1,0 +1,223 @@
+ul.checklist {
+  list-style: none;
+  margin-left: 0.2rem;
+}
+ul.checklist li:before {
+  content: '';
+  display: inline-block;
+  height: 0.95rem;
+  width: 0.95rem;
+  background-image: url('/wp-content/themes/docks/assets/images/util/Tick.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 1.2em;
+  position: relative;
+  top: 2px;
+}
+
+
+.text-white,
+.text-white a,
+.text-white a:hover,
+.text-white a:active {
+  color: white;
+}
+
+
+.text-small {
+  font-size: $small-font-size;
+}
+.text-medium {
+  font-size: 0.9rem;
+}
+
+.relative {
+  position: relative;
+}
+
+
+.nav-wrapper .menu li {
+  font-weight: bold;
+  font-family: $header-font-family;
+  font-size: 0.9rem;
+}
+
+.header {
+  background: get-color(secondary);
+}
+.panel-image {
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    -moz-background-size: cover!important;
+    -webkit-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-position: 50%;
+    overflow: hidden;
+}
+
+
+
+.padded-content {
+  padding:2rem 2rem;
+  @include breakpoint(medium) {
+    padding: 3rem 3rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  @include breakpoint(large) {
+    padding: 4rem 4rem;
+  }
+}
+
+.grid-container.fluid {
+  padding: 0rem;
+}
+
+.service-box-container .panel-image {
+  margin: 0.3rem;
+}
+.service-box {
+  border-top: 1px solid $light-gray;
+  border-right: 1px solid $light-gray;
+  border-left: 1px solid $light-gray;
+  border-radius: $global-radius;
+  -moz-border-radius: $global-radius;
+  -webkit-border-radius: $global-radius;
+  img {
+    padding: 0.5rem;
+  }
+  .content {
+    padding:1rem 1.5rem;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  .text-small a {
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
+.box-button {
+  border-radius: 0px 0px $global-radius $global-radius;
+  -moz-border-radius: 0px 0px $global-radius $global-radius;
+  -webkit-border-radius: 0px 0px  $global-radius $global-radius;
+  margin-bottom: 0px;
+}
+
+.warrant-text {
+  font-size: 0.7rem;
+}
+
+.grey-background {
+  background-color: get-color(secondary);
+  border-radius: $global-radius;
+  -moz-border-radius: $global-radius;
+  -webkit-border-radius: $global-radius;
+  &.service-box {
+    border-top: 1px solid get-color(secondary);
+    border-right: 1px solid get-color(secondary);
+    border-left: 1px solid get-color(secondary);
+  }
+}
+
+
+.grid-margin-y > .cell {
+  @include breakpoint(small only) {
+    margin-bottom: 0px;
+  }
+}
+
+.callout {
+  padding: 2rem;
+}
+
+
+.footer .menu li a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.breadcrumbs a {
+  text-decoration: underline;
+}
+
+.menu.sidebar li a {
+  border-top: 1px solid $light-gray;
+  border-right: 1px solid $light-gray;
+  border-left: 1px solid $light-gray;
+}
+.menu.sidebar li a {
+  padding: 1rem;
+}
+.menu.sidebar li a:hover {
+    border-color:get-color(secondary);
+    background: get-color(secondary);
+    color: white;
+}
+.menu.sidebar li a:hover {
+    border-color:get-color(secondary);
+    background: get-color(secondary);
+    color: white;
+}
+.menu.sidebar li.active a,
+.menu.sidebar li.active a:hover{
+    background: white;
+    border-top: 1px solid $light-gray;
+    border-right: 1px solid $light-gray;
+    border-left: 5px solid get-color(secondary);
+    color: inherit;
+}
+
+
+.page-header-content {
+  padding: 2rem 0rem;
+  @include breakpoint(medium) {
+    padding:3rem 0rem;
+  }
+}
+.page-header-image {
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+background-position: center;
+}
+
+
+.off-canvas .menu a {
+  font-family: $header-font-family;
+  font-size: rem-calc(20px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+
+.sidebar-box {
+    padding:1rem 1.5rem;
+}
+
+.medium-no-padding {
+  padding: 0px;
+  @include breakpoint(large) {
+    padding-left: rem-calc(20px);
+    padding-right: rem-calc(20px);
+  }
+}
+
+.grey-border {
+  border-top: 4px solid get-color(secondary);
+}
+
+.circle {
+    border: 2px solid #00a651;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 1rem;
+    background: #fff;
+    margin: 20px 0;
+}

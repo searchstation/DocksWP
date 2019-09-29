@@ -1,0 +1,89 @@
+{
+    "key": "group_5d174b4c6e9ca",
+    "title": "Training Booking Form",
+    "fields": [
+        {
+            "key": "field_5d174b5257fd7",
+            "label": "Show training booking form on this page?",
+            "name": "training_booking_form",
+            "type": "true_false",
+            "instructions": "If you would like to show a training booking form on this page select this option.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5d174b9557fd8",
+            "label": "Available Dates",
+            "name": "available_dates",
+            "type": "repeater",
+            "instructions": "If you wish to show a drop down with available dates please enter them here. To remove the date drop down, just delete all dates below.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d174b5257fd7",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Date",
+            "sub_fields": [
+                {
+                    "key": "field_5d174bd257fd9",
+                    "label": "Date",
+                    "name": "date",
+                    "type": "date_time_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "F j, Y g:i a",
+                    "return_format": "F j, Y g:i a",
+                    "first_day": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/service-content-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1561809109
+}
