@@ -1,3 +1,7 @@
+jQuery(window).on('load', function() {
+  jQuery('p,h1,h2,h3,h4,h5,h6,img,a.button,ul,ol').animate({'opacity': 1}, 500);
+});   
+
 
 jQuery(document).ready(function() {
 jQuery('.gallery').lightGallery({

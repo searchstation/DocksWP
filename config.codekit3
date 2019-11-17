@@ -41,50 +41,10 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/acf-json/group_5d11e01b94566.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d11e01b94566-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d11e68b5bda2.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d11e68b5bda2-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/acf-json/group_5d11eadbe5746.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/acf-json/group_5d11eadbe5746-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d160f23d759b.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d160f23d759b-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d16125fb4c39.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d16125fb4c39-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d174b4c6e9ca.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d174b4c6e9ca-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -8388,6 +8348,19 @@
 		"oA": 0,
 		"oAP": "/assets/styles/login.css.map",
 		"oF": 0
+		},
+	"/assets/styles/scss/_animate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/scss/_animate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/assets/styles/scss/_cookie.scss": {
 		"aP": 0,
