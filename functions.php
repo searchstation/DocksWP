@@ -46,3 +46,7 @@ require_once(get_template_directory().'/functions/dashboard.php');
 
 // ACF
 require_once(get_template_directory().'/functions/acf.php');
+
+
+// Gutenburg
+require_once(get_template_directory().'/functions/gutenburg-core.php');

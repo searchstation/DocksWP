@@ -49,14 +49,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/archive-portfolio.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/archive-portfolio.php",
-		"oF": 0
-		},
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -8466,7 +8458,7 @@
 		"oA": 0,
 		"oAP": "/assets/styles/style.min.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"sct": 1
 		},
 	"/assets/styles/style.min.css": {
@@ -8581,6 +8573,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions/enqueue-scripts.php",
+		"oF": 0
+		},
+	"/functions/gutenburg-core.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/gutenburg-core.php",
 		"oF": 0
 		},
 	"/functions/login.php": {
@@ -11528,14 +11528,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/sidebar.php",
-		"oF": 0
-		},
-	"/single-portfolio.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/single-portfolio.php",
 		"oF": 0
 		},
 	"/single.php": {
