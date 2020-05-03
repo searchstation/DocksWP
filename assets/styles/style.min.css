@@ -8306,7 +8306,9 @@ textarea.large {
 
 select {
   -webkit-appearance: none !important;
-  padding-right: 0px; }
+  padding-right: 0px;
+  background-position: right 5px top 5px, 0 0;
+  min-width: 60px; }
   select:focus {
     box-shadow: none; }
 
