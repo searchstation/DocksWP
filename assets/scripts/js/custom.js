@@ -1,44 +1,9 @@
-jQuery(window).on('load', function() {
-  jQuery('p,h1,h2,h3,h4,h5,h6,img,a.button,ul,ol').animate({'opacity': 1}, 500);
-});   
-
 
 jQuery(document).ready(function() {
-jQuery('.gallery').lightGallery({
-selector: 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]',
-download: false,
-share: false,
-actualSize:false,
-thumbnail:false,
-});
-});
-
-jQuery(document).ready(function(){
-jQuery('.hero-sliderDISABLED').bxSlider({
- mode: 'fade',
- auto: true,
- controls: false,
- adaptiveHeight: false,
- pager: false,
- startSlide: 1,
- speed: 5000,
- pause: 3000,
- randomStart: true
-});
-});
-
-jQuery(document).ready(function(){
-  jQuery.cookieBar();
-});
 
 
-jQuery(document).on( "opened.zf.offcanvas", function() {
-  jQuery(".hamburger").addClass("is-active");
-});
 
-jQuery(document).on( "closed.zf.offcanvas", function() {
-  jQuery(".hamburger").removeClass("is-active");
-});
+})
 
 
 
@@ -83,5 +48,5 @@ jQuery('.testimonial-slider').slick({
     // settings: "unslick"
     // instead of a settings object
   ]
-});
-});
+})
+})

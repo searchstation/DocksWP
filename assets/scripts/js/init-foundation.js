@@ -1,15 +1,12 @@
-// @codekit-prepend "../../../vendor/foundation-sites/dist/js/foundation.min.js";
-
+// @codekit-prepend "../../../node_modules/foundation-sites/dist/js/foundation.min.js";
 
 jQuery(document).foundation();
 
 // @codekit-append "wp-foundation.js";
 
-// @codekit-append "lightgallery.js";
+// @codekit-append "../../../node_modules/slick-slider/slick/slick.min.js";
 
-// @codekit-append "slick.js";
-
-// @codekit-append "bxslider.js";
+// @codekit-append "../../../node_modules/lightgallery/dist/js/lightgallery-all.min.js";
 
 // @codekit-append "cookie-bar.js";
 

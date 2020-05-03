@@ -8,27 +8,23 @@ CSS file.
 
 ******************************************************************/
 
-// Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
+@import "../../../node_modules/gravity-forms-styles/main";
+
+// Main Foundation Settings
 @import "settings";
 
 
-
-
-
 // Import foundation.scss from vendor files
-@import "../../../vendor/foundation-sites/scss/foundation";
+@import "../../../node_modules/foundation-sites/scss/foundation";
 
 // Import Motion-UI from vendor files
-@import "../../../vendor/motion-ui/src/motion-ui";
+@import "../../../node_modules/motion-ui/src/motion-ui";
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
 // Select the components you want to use
 @include foundation-global-styles;
 
-// Select the grid you would like to use
-// @include foundation-grid;
-// @include foundation-flex-grid;
 @include foundation-xy-grid-classes;
 
 @include foundation-flex-classes;
@@ -41,7 +37,7 @@ CSS file.
 @include foundation-breadcrumbs;
 @include foundation-button-group;
 @include foundation-callout;
-@include foundation-card;
+//@include foundation-card;
 @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
@@ -55,7 +51,7 @@ CSS file.
 @include foundation-orbit;
 @include foundation-pagination;
 @include foundation-progress-bar;
-@include foundation-slider;
+//@include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
 @include foundation-switch;
@@ -71,13 +67,9 @@ CSS file.
 // Import your custom styles
 @import "global";
 @import "globalTheme";
-@import "gravity";
-@import "hamburger";
 @import "cookie";
-@import "hero";
 @import "lightgallery";
 @import "margins";
-@import "marketingSiteContainer";
 @import "slick";
-@import "portfolio";
-@import "testimonials";
+
+@import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers";

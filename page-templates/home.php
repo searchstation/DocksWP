@@ -16,10 +16,9 @@ get_header(); ?>
       <div class="show-for-large"><div class="mb50"></div></div>
     </div>
     <div class="medium-5 cell hide-for-medium">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/" alt=""/>
+
     </div>
-    <div class="medium-5 cell medium-order-1 panel-image show-for-medium" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/');background-position: right top; background-size: 620px!important;">
-    </div>
+  
     </div>
 
 </div>

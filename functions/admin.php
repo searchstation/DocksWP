@@ -1,7 +1,7 @@
 <?php
 
 // Remove Menu bar front end
-//add_filter('show_admin_bar', '__return_false');
+add_filter('show_admin_bar', '__return_false');
 
 add_action( 'admin_bar_menu', 'remove_wp_nodes', 100 );
 

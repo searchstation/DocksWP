@@ -22,4 +22,26 @@ jQuery(document).ready(function() {
 	});
 
 
+
+  jQuery('.gallery').lightGallery({
+  selector: 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]',
+  download: false,
+  share: false,
+  actualSize:false,
+  thumbnail:false,
+  });
+
+
+  jQuery.cookieBar();
+
+  jQuery(document).on( "opened.zf.offCanvas", function() {
+    jQuery(".hamburger").addClass("is-active");
+  })
+
+  jQuery(document).on( "closed.zf.offCanvas", function() {
+    jQuery(".hamburger").removeClass("is-active");
+  })
+
+
+
 });

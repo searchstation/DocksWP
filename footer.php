@@ -26,8 +26,10 @@
 
 
       <div class="small-12 medium-12 large-12 cell text-center text-small mt40">
-        <p class="source-org copyright">@<?php echo date('Y'); ?> Copyright All Rights Reserved. Site managed by <a href="https://www.cobadigital.com" title="COBA Digital - Website Design and Digital Marketing"><strong>COBA.</strong></a><br>
+        <p class="source-org copyright">@<?php echo date('Y'); ?> Copyright All Rights Reserved.<br>
 Registered Address: <?php echo str_replace("<br />", " ", get_field('address', 'options')); ?></p>
+
+<p>Built with <img width="12" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fa/heart.svg"> by <a href="https://searchstation.co.uk/?utm_source=<?php echo site_url(); ?>&amp;utm_medium=website-credit&amp;utm_campaign=referral" title="Search Station">Search Station</a></p>
 			</div>
     </div>
   </div>
