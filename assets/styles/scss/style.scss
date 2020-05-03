@@ -8,7 +8,6 @@ CSS file.
 
 ******************************************************************/
 
-@import "../../../node_modules/gravity-forms-styles/main";
 
 // Main Foundation Settings
 @import "settings";
@@ -71,5 +70,8 @@ CSS file.
 @import "lightgallery";
 @import "margins";
 @import "slick";
+
+@import "../../../node_modules/gravity-forms-styles/main";
+@import "gravityVars";
 
 @import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
