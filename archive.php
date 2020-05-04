@@ -3,7 +3,7 @@
  * Displays archive pages if a speicifc template is not set.
  *
  * For more info: https://developer.wordpress.org/themes/basics/template-hierarchy/
- */
+ */ 
 
  //global $wp_query;
  //$wp_query->set_404();
@@ -15,7 +15,7 @@ get_header(); ?>
 	<div class="content grid-container mt30">
 		<div class="grid-x grid-margin-x">
       <main class="main inner-content small-12 medium-8 large-8 cell" role="main">
-      
+
         <h1><?php the_archive_title();?></h1>
         <?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
         <?php if (have_posts()) : ?>
