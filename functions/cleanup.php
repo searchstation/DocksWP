@@ -20,6 +20,10 @@ function docks_start() {
     // adding sidebars to Wordpress
     //add_action( 'widgets_init', 'docks_register_sidebars' );
 
+    remove_action( 'template_redirect', 'rest_output_link_header', 11 );
+    remove_action( 'wp_head', 'rest_output_link_wp_head');
+    remove_action( 'wp_head', 'wp_resource_hints', 2 );
+
     // cleaning up excerpt
     add_filter('excerpt_more', 'docks_excerpt_more');
 
@@ -54,6 +58,9 @@ function docks_remove_wp_widget_recent_comments_style() {
       remove_filter('wp_head', 'wp_widget_recent_comments_style' );
    }
 }
+
+
+
 
 
 
@@ -116,4 +123,4 @@ function remove_block_css(){
 wp_dequeue_style( 'wp-block-library' );
 }
 
-//add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );
+add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );

@@ -20,7 +20,7 @@ function docks_allowed_block_types( $allowed_block_types, $post ) {
           //'core/latestComments',
           //'core/latestPosts',
           'core/list',
-          //'core/more',
+          'core/more',
           'core/nextpage',
           'core/paragraph',
           'core/preformatted',

@@ -8308,19 +8308,6 @@
 		"oAP": "/assets/styles/login.css.map",
 		"oF": 0
 		},
-	"/assets/styles/scss/_animate.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/styles/scss/_animate.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/assets/styles/scss/_cookie.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -8334,7 +8321,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/assets/styles/scss/_global.scss": {
+	"/assets/styles/scss/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -8342,7 +8329,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/assets/styles/scss/_global.css",
+		"oAP": "/assets/styles/scss/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -8373,6 +8360,45 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/assets/styles/scss/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/scss/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/_helperLayout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/scss/_helperLayout.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/_helperType.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/scss/_helperType.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/assets/styles/scss/_lightgallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -8382,19 +8408,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/styles/scss/_lightgallery.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/styles/scss/_margins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/styles/scss/_margins.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -8421,6 +8434,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/styles/scss/_slick.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/scss/_WP.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/scss/_WP.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -10974,6 +11000,17 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/node_modules/jquery/dist/jquery.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/node_modules/lightgallery/dist/js/lightgallery-all.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -11354,14 +11391,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-templates/template-full-width.php",
-		"oF": 0
-		},
-	"/page-templates/testimonials.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page-templates/testimonials.php",
 		"oF": 0
 		},
 	"/page.php": {

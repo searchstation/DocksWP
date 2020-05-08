@@ -59,10 +59,20 @@ get_header(); ?>
 
 				<hr>
 
-				<div class="callout">
+				<div class="callout text-white">
 				  <h5>This is a callout.</h5>
 				  <p>It has an easy to override visual style, and is appropriately subdued.</p>
 				  <a href="#">It's dangerous to go alone, take this.</a>
+				</div>
+
+
+				<div class="callout relative text-white">
+					<div class="filter filter-black"></div>
+					<div class="relative">
+						<h5>This is a callout.</h5>
+						<p>It has an easy to override visual style, and is appropriately subdued.</p>
+						<a href="#">It's dangerous to go alone, take this.</a>
+					</div>
 				</div>
 
 				<hr>

@@ -69,14 +69,14 @@ $global-font-size: 1rem;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #EE7219,
-  secondary: #192E6A,
-  success: #1DC792,
-  warning: #FF3EAD,
-  alert: #209cee,
-  light-grey: #cccccc,
-  medium-grey: #555555,
-  dark-grey: #dddddd,
+  primary: #34495e,
+  secondary: #9b59b6,
+  success: #2ecc71,
+  warning: #e74c3c,
+  alert: #3498db,
+  light-grey: #f4f4f4,
+  medium-grey: #ccc,
+  dark-grey: #555,
 );
 $light-gray: get-color(light-grey);
 $medium-gray: get-color(medium-grey);
@@ -84,7 +84,7 @@ $dark-gray: get-color(dark-grey);
 $black: black;
 $white: white;
 $body-background: white;
-$body-font-color: get-color(secondary);
+$body-font-color: get-color(dark-grey);
 $body-font-family: Helvetica,Arial,sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -99,21 +99,12 @@ $global-text-direction: ltr;
 $global-flexbox: true;
 $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
-$global-color-pick-contrast-tolerance: 0;
+$global-color-pick-contrast-tolerance: 8;
 $print-transparent-backgrounds: true;
+$contrast-warnings: false;
 
 @include add-foundation-colors;
 
-@mixin radius {
-  border-radius: 10px;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-}
-@mixin card-shadow {
-  box-shadow: 0 10px 21px 0px rgba(1,63,121,0.18);
-  -webkit-box-shadow: 0 10px 21px 0px rgba(1,63,121,0.18);
-  -moz-box-shadow: 0 10px 21px 0px rgba(1,63,121,0.18);
-}
 
 // 2. Breakpoints
 // --------------
@@ -146,8 +137,8 @@ $block-grid-max: 8;
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/wp-content/themes/docks/assets/fonts/Poppins-Bold.woff2') format('woff2'),
-      url('/wp-content/themes/docks/assets/fonts/Poppins-Bold.woff') format('woff');
+  src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+      url('../fonts/Poppins-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -191,7 +182,7 @@ $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 $anchor-text-decoration-hover: underline;
 $hr-width: $global-width;
 $hr-border: 1px solid $light-gray;
@@ -205,7 +196,7 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $dark-gray;
+$blockquote-color: $body-font-color;
 $blockquote-padding: rem-calc(9 20 0 19);
 $blockquote-border: 1px solid $medium-gray;
 $cite-font-size: rem-calc(13);
@@ -307,7 +298,7 @@ $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: white;
-$button-color-alt: white;
+$button-color-alt: rgba(0,0,0,0.5);
 $button-radius: $global-radius;
 $button-hollow-border-width: 1px;
 $button-sizes: (
@@ -344,7 +335,7 @@ $callout-border: 0px solid white;
 $callout-margin: 0 0 1rem 0;
 $callout-padding: 3rem;
 $callout-font-color: white;
-$callout-font-color-alt: white;
+$callout-font-color-alt: rgba(0,0,0,0.5);
 $callout-radius: $global-radius;
 $callout-link-tint: 30%;
 

@@ -64,14 +64,19 @@ CSS file.
 @include foundation-float-classes;
 
 // Import your custom styles
-@import "global";
+@import "wp";
+@import "header";
+@import "footer";
 @import "globalTheme";
 @import "cookie";
 @import "lightgallery";
-@import "margins";
 @import "slick";
+@import "helperType";
+@import "helperLayout";
 
 @import "../../../node_modules/gravity-forms-styles/main";
 @import "gravityVars";
 
 @import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+@import "/wp-includes/css/dist/block-library/style.min.css"

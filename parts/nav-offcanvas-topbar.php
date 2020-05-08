@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="grid-container fluid nav-wrapper mw1300">
+<div class="grid-container fluid bg-primary mw1300">
 	<div class="grid-container">
 		<div class="grid-x  align-middle">
 			<div class="large-4 medium-6 small-6 cell">
@@ -19,7 +19,7 @@
 						<?php docks_top_nav(); ?>
 					</ul>
 					<span class="h6 mb0 text-medium show-for-medium text-white" style="margin-right:10px;margin-left:0.7rem;"><?php the_field('phone', 'options'); ?></span>
-						<a href="<?php echo site_url(); ?>/contact" class="button mb0 show-for-large">Contact</a>
+						<a href="<?php echo site_url(); ?>/contact" class="button secondary mb0 show-for-large">Contact</a>
 					<div>
 						<button class="hamburger hamburger--slider hide-for-large" type="button" style="margin-top:8px;" data-toggle="off-canvas">
   						<span class="hamburger-box">
