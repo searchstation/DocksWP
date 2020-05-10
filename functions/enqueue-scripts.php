@@ -1,6 +1,6 @@
 <?php
 
-if (!is_admin()) add_action("wp_enqueue_scripts", "docks_footer_jquery", 11);
+//if (!is_admin()) add_action("wp_enqueue_scripts", "docks_footer_jquery", 11);
 function docks_footer_jquery() {
    wp_deregister_script('jquery');
    wp_register_script('jquery', "/wp-includes/js/jquery/jquery.js", '', null, true);
