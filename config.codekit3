@@ -141,6 +141,17 @@
 		"oAP": "/assets/fonts/slick.woff",
 		"oF": 0
 		},
+	"/assets/images/docksWP-hero.jpg": {
+		"ft": 16384,
+		"iS": 160084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/docksWP-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/images/fa/500px.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8438,7 +8449,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/assets/styles/scss/_WP.scss": {
+	"/assets/styles/scss/_wp.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -8446,7 +8457,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/assets/styles/scss/_WP.css",
+		"oAP": "/assets/styles/scss/_wp.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -8480,11 +8491,11 @@
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/styles/style.min.css",
-		"oF": 2,
-		"oS": 3,
+		"oAP": "/assets/styles/scss/style.css",
+		"oF": 0,
+		"oS": 0,
 		"sct": 1
 		},
 	"/assets/styles/style.min.css": {
@@ -10999,17 +11010,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
-		},
-	"/node_modules/jquery/dist/jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/jquery/dist/jquery.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/node_modules/lightgallery/dist/js/lightgallery-all.min.js": {
 		"bF": 0,
