@@ -8462,29 +8462,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/assets/styles/scss/login.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/styles/scss/login.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/styles/scss/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/styles/scss/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/assets/styles/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -8493,9 +8470,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/styles/scss/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "/assets/styles/style.min.css",
+		"oF": 2,
+		"oS": 3,
 		"sct": 1
 		},
 	"/assets/styles/style.min.css": {
@@ -11497,14 +11474,6 @@
 		"oAP": "/parts/nav-offcanvas.php",
 		"oF": 0
 		},
-	"/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0
-		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -11551,6 +11520,14 @@
 		"oAP": "/searchform.php",
 		"oF": 0
 		},
+	"/sidebar-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sidebar-page.php",
+		"oF": 0
+		},
 	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -11566,16 +11543,6 @@
 		"oA": 0,
 		"oAP": "/single.php",
 		"oF": 0
-		},
-	"/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style-min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/style.css": {
 		"aP": 1,
