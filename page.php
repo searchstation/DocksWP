@@ -12,12 +12,11 @@ get_header(); ?>
 	<div class="grid-x grid-margin-x grid-margin-y">
 		<div class="large-8 medium-7 small-12 cell cell" id="content">
 			<div class="breadcrumbs text-small">
-				<?php $parents = get_post_ancestors($post);
-				echo '<a href="'.site_url().'">Home</a>';
-				foreach ($parents as $parent) {
-					echo ' > <a href="'.get_the_permalink($parent).'">'.get_the_title($parent).'</a>';
-				}
-				echo ' > '; the_title(); ?>
+				<?php
+					if ( function_exists('yoast_breadcrumb') ) {
+					  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+					}
+					?>
 			</div>
 			<h1><?php the_title(); ?></h1>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -32,7 +31,7 @@ get_header(); ?>
 
 
 		</div>
-		<?php get_sidebar(); ?>
+		<?php get_sidebar('page'); ?>
 	</div>
 
 
