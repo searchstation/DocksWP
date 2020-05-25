@@ -8449,7 +8449,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/assets/styles/scss/_wp.scss": {
+	"/assets/styles/scss/_WP.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -8457,7 +8457,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/assets/styles/scss/_wp.css",
+		"oAP": "/assets/styles/scss/_WP.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -11594,7 +11594,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 576149231.35316896,
-	"displayValue": "Docks v2.0",
+	"displayValue": "DocksWP",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/assets/images/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0

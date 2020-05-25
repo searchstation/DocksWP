@@ -11,7 +11,7 @@ function remove_wp_nodes()
     $wp_admin_bar->remove_menu( 'new-content' );
 		//$wp_admin_bar->remove_menu( 'view' );
 		$wp_admin_bar->remove_menu( 'comments' );
-		$wp_admin_bar->remove_menu( 'site-name' );
+		//$wp_admin_bar->remove_menu( 'site-name' );
 		$wp_admin_bar->remove_menu( 'wp-logo' );
 		$wp_admin_bar->remove_menu( 'customize' );
 		//$wp_admin_bar->remove_menu( 'stats' );
