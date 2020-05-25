@@ -8281,16 +8281,6 @@
 		"oAP": "/assets/scripts/scripts.min.js.map",
 		"oF": 0
 		},
-	"/assets/styles/admin-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/styles/admin-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/assets/styles/admin.css": {
 		"aP": 1,
 		"bl": 0,
@@ -8310,14 +8300,6 @@
 		"oAP": "/assets/styles/login-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/assets/styles/login.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/styles/login.css.map",
-		"oF": 0
 		},
 	"/assets/styles/scss/_cookie.scss": {
 		"aP": 0,
