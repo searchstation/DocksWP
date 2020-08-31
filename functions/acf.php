@@ -4,7 +4,7 @@
 
 // Hide ACF for production sites
 function coba_acf_settings_path( $show_admin ) {
-	if  (WP_DEBUG) {
+	if  (wp_get_environment_type() == 'development') {
 		return true;
 	} else {
     return false;
