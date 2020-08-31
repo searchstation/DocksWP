@@ -8979,14 +8979,6 @@
 		"oAP": "/parts/content-offcanvas.php",
 		"oF": 0
 		},
-	"/parts/content-sidebar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/parts/content-sidebar.php",
-		"oF": 0
-		},
 	"/parts/content-testimonial-slider.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -9095,14 +9087,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/searchform.php",
-		"oF": 0
-		},
-	"/sidebar-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/sidebar-page.php",
 		"oF": 0
 		},
 	"/sidebar.php": {
