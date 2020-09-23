@@ -8,6 +8,8 @@ jQuery(document).foundation();
 
 // @codekit-append "../../../node_modules/lightgallery/dist/js/lightgallery-all.min.js";
 
+// @codekit-append "../../../node_modules/rellax/rellax.js";
+
 // @codekit-append "cookie-bar.js";
 
 // @codekit-append "custom.js";
