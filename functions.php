@@ -11,8 +11,6 @@ require_once(get_template_directory().'/functions/enqueue-scripts.php');
 // Register custom menus and menu walkers
 require_once(get_template_directory().'/functions/menu.php');
 
-// Register sidebars/widget areas
-//require_once(get_template_directory().'/functions/sidebar.php');
 
 // Makes WordPress comments suck less
 require_once(get_template_directory().'/functions/comments.php');
@@ -23,17 +21,9 @@ require_once(get_template_directory().'/functions/page-navi.php');
 // Remove 4.2 Emoji Support
 require_once(get_template_directory().'/functions/disable-emoji.php');
 
-// Adds site styles to the WordPress editor
-//require_once(get_template_directory().'/functions/editor-styles.php');
-
-// Related post function - no need to rely on plugins
-// require_once(get_template_directory().'/functions/related-posts.php');
 
 // Use this as a template for custom post types
 require_once(get_template_directory().'/functions/custom-post-type.php');
-
-// Customize the WordPress login menu
-//require_once(get_template_directory().'/functions/login.php');
 
 // Customize the WordPress admin
 require_once(get_template_directory().'/functions/admin.php');
@@ -46,7 +36,6 @@ require_once(get_template_directory().'/functions/dashboard.php');
 
 // ACF
 require_once(get_template_directory().'/functions/acf.php');
-
 
 // Gutenburg
 require_once(get_template_directory().'/functions/gutenburg-core.php');

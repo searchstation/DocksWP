@@ -4,8 +4,6 @@ jQuery(document).foundation();
 
 // @codekit-append "wp-foundation.js";
 
-// @codekit-append "../../../node_modules/slick-slider/slick/slick.min.js";
-
 // @codekit-append "../../../node_modules/lightgallery/dist/js/lightgallery-all.min.js";
 
 // @codekit-append "../../../node_modules/rellax/rellax.js";

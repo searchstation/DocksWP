@@ -6,7 +6,7 @@ function custom_welcome() {
 // Content you want to show inside the widget
 $theme = wp_get_theme();
 echo '<h2>Site Overview</h2>';
-echo '<p>This site is built on <strong>'.$theme->get( 'Name' ).'</strong> (version: '.$theme->get( 'Version' ).') which is a base theme developed by <a href="https://www.cobadigital.com" target="_blank">COBA Digital</a>.</p>';
+echo '<p>This site is built on <strong>'.$theme->get( 'Name' ).'</strong> (version: '.$theme->get( 'Version' ).') which is a base theme developed by <a href="https://searchstation.co.uk" target="_blank">Search Station</a>.</p>';
 echo '<p>To ensure the site always performs as good as possible and to improve security, we have disabled some of the core WordPress functionality including switching the base theme and installing plugins. These tasks should only be performed by an experienced site administrator, as if not done correctly could break the site or create a security vulnerability. If you require either of these tasks to be carried out please contact us and we will be happy to help. info@cobadigital.com</p>';
 }
 

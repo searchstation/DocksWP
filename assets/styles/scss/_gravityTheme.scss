@@ -1,0 +1,140 @@
+.ginput_container input,
+.ginput_container textarea {
+  margin-bottom: 0px;
+}
+
+.gform_footer {
+  margin-top: 1rem;
+}
+
+.gfield_required_text {
+  margin-left: 5px;
+font-size: $small-font-size;
+color: $warning-color;
+}
+
+.is-invalid-input:not(:focus) {
+  background-color: rgba(236, 88, 64, 0.1);
+  border-color: #ec5840; }
+
+.is-invalid-label {
+  color: #ec5840; }
+
+.form-error {
+  display: none;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #ec5840; }
+  .form-error.is-visible {
+    display: block; }
+
+
+.gfield_label {
+  font-weight: $global-weight-bold;
+}
+.gform_wrapper .gfield_error .gfield_label {
+  background: get-color(warning);
+  color: white;
+  padding: 0.1rem 0.4rem;
+}
+
+.gform_wrapper .gfield_error input, .gform_wrapper .gfield_error select, .gform_wrapper .gfield_error textarea {
+  border-color: get-color(warning);
+ }
+
+
+
+.gform_wrapper ul {
+	  margin: auto;
+	  list-style: none;
+	  text-align: left;
+
+  }
+ul.gform_fields li.gfield {
+	    vertical-align: top;
+    margin-bottom: 15px;
+}
+.gform_validation_errors {
+  h2 {
+    font-size: $global-font-size;
+    margin-bottom: 0px;
+  }
+    padding: 12px;
+    margin-bottom: 20px;
+
+    border-radius: 0px;
+    background-color: get-color(warning);
+
+    color: white;
+    p {
+      margin-bottom: 0px;
+    }
+     }
+
+.validation_error h4 {
+  margin-top: 0;
+  color: inherit; }
+
+.validation_error .alert-link {
+  font-weight: bold; }
+
+.validation_error>p, .validation_error>ul {
+  margin-bottom: 0; }
+
+.validation_error>p+p {
+  margin-top: 5px; }
+
+.validation_error hr {
+  border-top-color: #e6c1c7; }
+
+.validation_error .alert-link {
+  color: #953b39; }
+
+  .validation_message {
+    font-style: italic;
+font-size: $small-font-size;
+  }
+
+.gf_progressbar_wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+
+  font-size: $small-font-size;
+  .gf_progressbar {
+    border-radius: 2px;
+background: $light-gray;
+  .gf_progressbar_percentage {
+    background: $primary-color;
+    color:white;
+  }
+  }
+  .gf_progressbar_title {
+    font-size: $small-font-size;
+    font-weight: $global-weight-normal;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+img.gform_ajax_spinner {
+    position: fixed !important;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block !important;
+    overflow: hidden  !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(0, 0, 0); /* fall back */
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('/wp-content/themes/docks/assets/images/util/Rolling.svg');  /* path to your new spinner */
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: center center;
+}

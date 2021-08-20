@@ -32,7 +32,7 @@ http://digwp.com/2010/10/customize-wordpress-dashboard/
 /************* CUSTOMIZE ADMIN *******************/
 // Custom Backend Footer
 function joints_custom_admin_footer() {
-	_e('<span id="footer-thankyou">Developed by <a href="https://cobadigital.com" target="_blank">COBA Digital</a></span>.', 'jointswp');
+	_e('<span id="footer-thankyou">Developed by <a href="https://searchstation.co.uk" target="_blank">Search Station</a></span>.', 'docks');
 }
 
 // adding it to the admin area
@@ -40,9 +40,3 @@ add_filter('admin_footer_text', 'joints_custom_admin_footer');
 
 
 define('DISALLOW_FILE_EDIT', true);
-
-
-add_action( 'admin_enqueue_scripts', 'load_custom_styles' );
-function load_custom_styles() {
-    wp_enqueue_style('admin_css', get_stylesheet_directory_uri().'/assets/styles/admin.css');
-}

@@ -62,9 +62,6 @@ function docks_remove_wp_widget_recent_comments_style() {
 
 
 
-
-
-
 // Remove injected CSS from recent comments widget
 function docks_remove_recent_comments_style() {
   global $wp_widget_factory;
@@ -73,10 +70,12 @@ function docks_remove_recent_comments_style() {
   }
 }
 
+
 // Remove injected CSS from gallery
 function docks_gallery_style($css) {
   return preg_replace("!<style type='text/css'>(.*?)</style>!s", '', $css);
 }
+
 
 // This removes the annoying […] to a Read More link
 function docks_excerpt_more($more) {
@@ -84,6 +83,7 @@ function docks_excerpt_more($more) {
 	// edit here if you like
 return '<a class="excerpt-read-more" href="'. get_permalink($post->ID) . '" title="'. __('Read', 'dockswp') . get_the_title($post->ID).'">'. __('... Read more &raquo;', 'dockswp') .'</a>';
 }
+
 
 //  Stop WordPress from using the sticky class (which conflicts with Foundation), and style WordPress sticky posts using the .wp-sticky class instead
 function remove_sticky_class($classes) {
@@ -96,27 +96,8 @@ function remove_sticky_class($classes) {
 }
 add_filter('post_class','remove_sticky_class');
 
-//This is a modified the_author_posts_link() which just returns the link. This is necessary to allow usage of the usual l10n process with printf()
-function docks_get_the_author_posts_link() {
-	global $authordata;
-	if ( !is_object( $authordata ) )
-		return false;
-	$link = sprintf(
-		'<a href="%1$s" title="%2$s" rel="author">%3$s</a>',
-		get_author_posts_url( $authordata->ID, $authordata->user_nicename ),
-		esc_attr( sprintf( __( 'Posts by %s', 'dockswp' ), get_the_author() ) ), // No further l10n needed, core will take care of this one
-		get_the_author()
-	);
-	return $link;
-}
 
-//Remove Query Strings from Static Resources
-function _remove_script_version( $src ){
-	$parts = explode( '?ver', $src );
-        return $parts[0];
-}
-//add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
-//add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
+
 
 // Remove block Library styles
 function remove_block_css(){

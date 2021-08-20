@@ -16,27 +16,18 @@ CSS file.
 // Import foundation.scss from vendor files
 @import "../../../node_modules/foundation-sites/scss/foundation";
 
-// Import Motion-UI from vendor files
-@import "../../../node_modules/motion-ui/src/motion-ui";
-@include motion-ui-transitions;
-@include motion-ui-animations;
-
 // Select the components you want to use
 @include foundation-global-styles;
-
 @include foundation-xy-grid-classes;
-
 @include foundation-flex-classes;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
 @include foundation-accordion;
 @include foundation-accordion-menu;
-@include foundation-badge;
 @include foundation-breadcrumbs;
 @include foundation-button-group;
 @include foundation-callout;
-//@include foundation-card;
 @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
@@ -47,10 +38,8 @@ CSS file.
 @include foundation-label;
 @include foundation-media-object;
 @include foundation-off-canvas;
-@include foundation-orbit;
 @include foundation-pagination;
 @include foundation-progress-bar;
-//@include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
 @include foundation-switch;
@@ -65,17 +54,16 @@ CSS file.
 
 // Import your custom styles
 @import "wp";
+@import "mixins";
+@import "hamburger";
 @import "header";
 @import "footer";
-@import "globalTheme";
+@import "gravityTheme";
 @import "cookie";
 @import "lightgallery";
-@import "slick";
 @import "helperType";
 @import "helperLayout";
-
-@import "../../../node_modules/gravity-forms-styles/main";
-@import "gravityVars";
+@import "globalTheme";
 
 @import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 

@@ -4,7 +4,7 @@
  */
  ?>
 
- <div class="large-4 medium-5 small-12 cell cell">
+ <div class="large-4 medium-5 small-12 cell">
 
 
  </div>

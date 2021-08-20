@@ -4,9 +4,10 @@ and Foundation play nice together.
 */
 
 
-
 jQuery(document).ready(function() {
 
+    //setup Cookiebar
+    jQuery.cookieBar();
 
 
     // Remove empty P tags created by WP inside of Accordion and Orbit
@@ -22,7 +23,7 @@ jQuery(document).ready(function() {
 	});
 
 
-
+  //Add Lightgallery to WP Galleries
   jQuery('.gallery').lightGallery({
   selector: 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]',
   download: false,
@@ -32,16 +33,12 @@ jQuery(document).ready(function() {
   });
 
 
-  jQuery.cookieBar();
-
+  //Hamburger classes
   jQuery(document).on( "opened.zf.offCanvas", function() {
     jQuery(".hamburger").addClass("is-active");
   })
-
   jQuery(document).on( "closed.zf.offCanvas", function() {
     jQuery(".hamburger").removeClass("is-active");
   })
-
-
 
 });

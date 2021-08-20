@@ -9,28 +9,28 @@ get_header(); ?>
 
 	<div class="content mt100">
 
-		<div class="inner-content grid-x grid-margin-x grid-padding-x text-center">
+		<div class="grid-x grid-margin-x text-center">
 
-			<main class="main small-12 medium-12 large-12 cell" role="main">
+			<main class="small-12 medium-12 large-12 cell" role="main">
 
 				<article class="content-not-found">
 
 					<header class="article-header">
-						<h1><?php _e( 'Error 404 - Page Not Found', 'dockswp' ); ?></h1>
-					</header> <!-- end article header -->
+						<h1>Error 404 - Page Not Found</h1>
+					</header>
 
 					<section class="entry-content">
-						<p><?php _e( 'The page you were looking for was not found.', 'docks' ); ?></p>
-					</section> <!-- end article section -->
+						<p>The page you were looking for was not found.</p>
+					</section>
 
 
 
-				</article> <!-- end article -->
+				</article>
 
-			</main> <!-- end #main -->
+			</main>
 
-		</div> <!-- end #inner-content -->
+		</div>
 
-	</div> <!-- end #content -->
+	</div> 
 
 <?php get_footer(); ?>
