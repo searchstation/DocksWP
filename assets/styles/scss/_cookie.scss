@@ -1,4 +1,4 @@
-.cookie {
+.cookie-bar {
   position: fixed;
 bottom: 0px;
 width: 100%;
@@ -22,4 +22,9 @@ z-index: 1000;
 }
 #cookie-bar p {
   margin-bottom: 0px;
+  .button {
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 5px;
+  }
 }

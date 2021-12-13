@@ -23,14 +23,6 @@ jQuery(document).ready(function() {
 	});
 
 
-  //Add Lightgallery to WP Galleries
-  jQuery('.gallery').lightGallery({
-  selector: 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]',
-  download: false,
-  share: false,
-  actualSize:false,
-  thumbnail:false,
-  });
 
 
   //Hamburger classes

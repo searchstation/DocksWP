@@ -36,17 +36,17 @@ CSS file.
 @include foundation-dropdown-menu;
 @include foundation-responsive-embed;
 @include foundation-label;
-@include foundation-media-object;
+//@include foundation-media-object;
 @include foundation-off-canvas;
 @include foundation-pagination;
-@include foundation-progress-bar;
+//@include foundation-progress-bar;
 @include foundation-sticky;
 @include foundation-reveal;
-@include foundation-switch;
+//@include foundation-switch;
 @include foundation-table;
 @include foundation-tabs;
 @include foundation-thumbnail;
-@include foundation-title-bar;
+//@include foundation-title-bar;
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
@@ -54,18 +54,37 @@ CSS file.
 @include foundation-prototype-spacing;
 
 // Import your custom styles
-@import "wp";
 @import "mixins";
-@import "hamburger";
-@import "header";
-@import "footer";
-@import "gravityTheme";
-@import "cookie";
-@import "lightgallery";
+
+@import "wp";
+
 @import "helperType";
 @import "helperLayout";
+@import "hamburgerSettings";
+
+@import "header";
+@import "footer";
+@import "hero";
+@import "sidebar";
+@import "navigation";
+
+@import "gravityBase";
+@import "gravityTheme";
+
+@import "cookie";
+
 @import "globalTheme";
 
 @import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+@import "../../../node_modules/lightgallery/scss/lightgallery-core";
+@import "../../../node_modules/lightgallery/scss/lg-fonts";
+@import "lg-theme";
+
+//@import "../../../node_modules/swiper/swiper-bundle.css";
+@import "../../../node_modules/swiper/swiper";
+@import "../../../node_modules/swiper/modules/pagination/pagination";
+@import "../../../node_modules/swiper/modules/navigation/navigation";
+
 
 @import "/wp-includes/css/dist/block-library/style.min.css"

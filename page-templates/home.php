@@ -3,21 +3,24 @@
 
 get_header(); ?>
 
-<div class="grid-container medium-no-padding">
-  <div class="grid-x grid-padding-x">
-    <div class="medium-12 cell panel-image relative" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/docksWP-hero.jpg');">
-      <div class="filter filter-primary"></div>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 
-      <div class="relative text-white pt80 pb80">
-        <h1>The Fastest WordPress Theme Framework</h1>
-        <p>DocksWP</p>
-        <a href="" class="button secondary" title="">Button Secondary</a>
-      </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
-    </div>
-
-    </div>
-
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
 </div>
 
 

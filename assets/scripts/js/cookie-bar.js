@@ -23,15 +23,15 @@
 			var doReturn = false;
 		}
 		var defaults = {
-			message: 'We use cookies to track usage and preferences. ', //Message displayed on bar
+			message: 'We use cookies to enhance your experience, analyse usage and to personalise ads and other marketing. For more information please read our ', //Message displayed on bar
 			acceptButton: true, //Set to true to show accept/enable button
-			acceptText: 'Close', //Text on accept/enable button
+			acceptText: 'Accept Cookies', //Text on accept/enable button
 			acceptFunction: function(cookieValue){if(cookieValue!='enabled' && cookieValue!='accepted') window.location = window.location.href;}, //Function to run after accept
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
 			declineFunction: function(cookieValue){if(cookieValue=='enabled' || cookieValue=='accepted') window.location = window.location.href;}, //Function to run after decline
-			policyButton: false, //Set to true to show Privacy Policy button
-			policyText: 'Privacy Policy', //Text on Privacy Policy button
+			policyButton: true, //Set to true to show Privacy Policy button
+			policyText: 'Privacy & Cookie Policy.', //Text on Privacy Policy button
 			policyURL: '/privacy-policy/', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
 			acceptOnContinue: false, //Set to true to accept cookies when visitor moves to another page
@@ -41,7 +41,7 @@
 			renewOnVisit: false, //Renew the cookie upon revisit to website
 			forceShow: false, //Force cookieBar to show regardless of user cookie preference
 			effect: 'hide', //Options: slide, fade, hide
-			element: '.cookie', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
+			element: '.cookie-bar', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: true, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
 			fixed: false, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			bottom: false, //Force CSS when fixed, so bar appears at bottom of website
@@ -98,17 +98,19 @@
 			//Sets up enable/accept button if required
 			var message = options.message.replace('{policy_url}',options.policyURL);
 
-			if(options.acceptButton){
-				var acceptButton = '<a href="" class="cb-enable">'+options.acceptText+'</a>';
-			}else{
-				var acceptButton = '';
-			}
-			//Sets up disable/decline button if required
+      //Sets up disable/decline button if required
 			if(options.declineButton){
 				var declineButton = '<a href="" class="cb-disable">'+options.declineText+'</a>';
 			}else{
 				var declineButton = '';
 			}
+
+			if(options.acceptButton){
+				var acceptButton = '<a href="" class="cb-enable button success small">'+options.acceptText+'</a>';
+			}else{
+				var acceptButton = '';
+			}
+
 			//Sets up privacy policy button if required
 			if(options.policyButton){
 				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
@@ -134,9 +136,9 @@
 			//Displays the cookie bar if arguments met
 			if(options.forceShow || cookieValue=='enabled' || cookieValue==''){
 				if(options.append){
-					$(options.element).append('<div id="cookie-bar"'+fixed+zindex+'><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$(options.element).append('<div id="cookie-bar"'+fixed+zindex+'><p>'+message+policyButton+' '+declineButton+' '+acceptButton+'</p></div>');
 				}else{
-					$(options.element).prepend('<div id="cookie-bar"'+fixed+zindex+'><p>'+message+acceptButton+declineButton+policyButton+'</p></div>');
+					$(options.element).prepend('<div id="cookie-bar"'+fixed+zindex+'><p>'+message+policyButton+' '+declineButton+' '+acceptButton+'</p></div>');
 				}
 			}
 
