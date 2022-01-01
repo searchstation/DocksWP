@@ -12,17 +12,15 @@
 			<h1><?php _e( 'Sorry, No Results.', 'dockswp' );?></h1>
 		</header>
 
-		<section class="entry-content">
+		<main class="entry-content">
 			<p><?php _e( 'Try your search again.', 'dockswp' );?></p>
-		</section>
+		</main>
 
 		<section class="search">
 		    <p><?php get_search_form(); ?></p>
 		</section> <!-- end search section -->
 
-		<footer class="article-footer">
-			<p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'dockswp' ); ?></p>
-		</footer>
+
 
 	<?php else: ?>
 
@@ -30,17 +28,13 @@
 			<h1><?php _e( 'Oops, Post Not Found!', 'dockswp' ); ?></h1>
 		</header>
 
-		<section class="entry-content">
+		<main class="entry-content">
 			<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'dockswp' ); ?></p>
-		</section>
+		</man>
 
 		<section class="search">
 		    <p><?php get_search_form(); ?></p>
 		</section> <!-- end search section -->
-
-		<footer class="article-footer">
-		  <p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'dockswp' ); ?></p>
-		</footer>
 
 	<?php endif; ?>
 

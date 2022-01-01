@@ -5,9 +5,10 @@
  * This is the template that displays all pages by default.
  */
 
-get_header(); ?>
+get_header();
 
+get_template_part('/parts/header/header-page');
 
+get_template_part('/parts/content/content-page-sidebar');
 
-
-<?php get_footer(); ?>
+ get_footer(); ?>

@@ -7,7 +7,7 @@
 function ea_disable_editor( $id = false ) {
 
   $excluded_templates = array(
-    '',
+    'page-templates/home.php',
   );
 
   $excluded_ids = array(

@@ -4,7 +4,8 @@
  */
  ?>
 
- <div class="large-4 medium-5 small-12 cell">
+ <aside class="large-4 small-12 cell">
 
+   <p>This is a sidebar</p>
 
- </div>
+ </aside>

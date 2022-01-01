@@ -50,3 +50,8 @@ function yoasttobottom() {
 	return 'low';
 }
 add_filter( 'wpseo_metabox_prio', 'yoasttobottom');
+
+function docks_placeholder_img() {
+	echo '<img src="'.get_stylesheet_directory_uri().'/assets/images/util/placeholder.jpg" alt="Placeholder" width="600" height="400"/>';
+	return;
+}

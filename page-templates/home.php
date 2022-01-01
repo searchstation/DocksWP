@@ -3,40 +3,68 @@
 
 get_header(); ?>
 
-<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
+<div class="grid-container full">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="grid-x align-middle">
+          <div class="large-6 cell">
+            <?php docks_placeholder_img(); ?>
+          </div>
+          <div class="large-6 cell text-center">
+            This is a test slide
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="grid-x align-middle">
+          <div class="large-6 cell">
+            <?php docks_placeholder_img(); ?>
+          </div>
+          <div class="large-6 cell text-center">
+            This is a test slide
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="grid-x align-middle">
+          <div class="large-6 cell">
+            <?php docks_placeholder_img(); ?>
+          </div>
+          <div class="large-6 cell text-center">
+            This is a test slide
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-scrollbar"></div>
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
 </div>
 
-
-<div class="grid-container mt50">
+<main class="grid-container margin-top-2">
   <div class="grid-x grid-margin-x align-middle">
-    <div class="large-8 cell">
-      <div class="padded-content">
-      <h2>Heading</h2>
+    <div class="large-12 cell">
+      <h1>Heading 1</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <h3>Heading</h3>
+      <h2>Heading 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h3>Heading 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h4>Heading 4</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h5>Heading 5</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h6>Heading 6</h6>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    </div>
 
   </div>
-</div>
+</main>
 
 
 <?php get_footer(); ?>
