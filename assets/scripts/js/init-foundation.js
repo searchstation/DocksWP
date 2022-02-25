@@ -14,4 +14,6 @@ jQuery(document).foundation();
 
 // @codekit-append "cookie-bar.js";
 
+// @codekit-append "motion.js";
+
 // @codekit-append "custom.js";

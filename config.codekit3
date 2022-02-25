@@ -8172,16 +8172,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/util\/Group 1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/util\/Group 1.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
     "\/assets\/images\/util\/loading.gif" : {
       "ft" : 4194304,
       "iS" : 4178,
@@ -8268,6 +8258,17 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/assets\/scripts\/js\/motion.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/js\/motion-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/scripts\/js\/wp-foundation.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -8316,6 +8317,21 @@
       "oA" : 0,
       "oAP" : "\/assets\/scripts\/scripts.min.js.map",
       "oF" : 0
+    },
+    "\/assets\/styles\/scss\/_animate.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/styles\/scss\/_animate.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
     },
     "\/assets\/styles\/scss\/_cookie.scss" : {
       "aP" : 0,
