@@ -25,7 +25,7 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="off-canvas-wrapper">
-			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
+			<?php get_template_part( 'parts/content/content', 'offcanvas' ); ?>
 			<div class="off-canvas-content" data-off-canvas-content>
 				<header class="header" role="banner">
 					 <?php get_template_part( 'parts/nav/nav', 'offcanvas-topbar' ); ?>
