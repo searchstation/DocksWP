@@ -1,6 +1,6 @@
 
 .gform_wrapper.gravity-theme .gfield_label {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 3px;
     display: inline-block;
@@ -10,7 +10,7 @@
 .gform_wrapper.gravity-theme .gform_fileupload_rules,
 .gform_wrapper.gravity-theme .ginput_complex label {
     font-size: 15px;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 .gform_wrapper.gravity-theme.left_label fieldset.gfield,
 .gform_wrapper.gravity-theme.right_label fieldset.gfield {
@@ -46,7 +46,7 @@
 }
 .gform_wrapper .gform_validation_errors {
     background: $warning-color;
-    border-radius: $global-radius;
+    border-radius: $input-radius;
     margin-bottom: 8px;
     margin-top: 8px;
     padding: 16px 16px 16px 48px;
@@ -127,7 +127,7 @@
     margin-top: 2px;
     padding: 5px;
     color: white;
-    border-radius: $global-radius;
+    border-radius: $input-radius;
 }
 
 .gform_wrapper.gravity-theme .gform_previous_button.button,
@@ -340,7 +340,7 @@ html[dir="rtl"] .gform_wrapper.gravity-theme .ginput_container_date[style*="disp
 .gform-theme-datepicker:not(.gform-legacy-datepicker) {
     background: #fff;
     border: 1px solid #d0d1d3;
-    border-radius: $global-radius;
+    border-radius: $input-radius;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.11), 0 0 4px rgba(18, 25, 97, 0.0405344);
     color: #607382;
     font-size: 13px;
@@ -563,7 +563,7 @@ html[dir="rtl"] .gform_wrapper.gravity-theme input + input {
 .gform_wrapper.gravity-theme .gfield_checkbox label,
 .gform_wrapper.gravity-theme .gfield_radio label {
     display: inline;
-    font-size: 15px;
+    font-size: 14px;
 }
 .gform_wrapper.gravity-theme .gfield_checkbox button,
 .gform_wrapper.gravity-theme .gfield_checkbox input[type="text"],
@@ -606,6 +606,7 @@ html[dir="rtl"] .gform_wrapper.gravity-theme input + input {
     padding: 8px;
     margin-bottom: 0;
     margin-top: 0;
+    box-shadow: 0px 0px 0px 4px rgba(204, 204, 204, 0.17);
 }
 .gform_wrapper.gravity-theme .chosen-container-multi,
 .gform_wrapper.gravity-theme .ginput_product_price,
@@ -1010,4 +1011,11 @@ label {
   padding: 1rem;
   @include box-shadow;
   margin-top: 30px;
+}
+
+.gform_description {
+  font-size: $small-font-size;
+}
+.gform_heading {
+  margin-bottom: 1rem;
 }
