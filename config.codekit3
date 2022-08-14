@@ -7,7 +7,7 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34408",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -10074,7 +10074,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -10702,6 +10703,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
