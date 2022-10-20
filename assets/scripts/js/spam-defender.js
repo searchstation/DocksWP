@@ -1,10 +1,12 @@
 if (window.gform) {
   var blacklist_full = null
   var blacklist_part = null
-  jQuery.getJSON("https://raw.githubusercontent.com/searchstation/spam-defenders/main/blacklist_full.json", function(json_full) {
+  var date = new Date()
+  var timestamp = date.valueOf()
+  jQuery.getJSON(" https://raw.githubusercontent.com/searchstation/spam-defenders/main/blacklist_full.json?t=" + timestamp + "", function(json_full) {
     blacklist_full = json_full
   })
-  jQuery.getJSON("https://raw.githubusercontent.com/searchstation/spam-defenders/main/blacklist_part.json", function(json_part) {
+  jQuery.getJSON(" https://raw.githubusercontent.com/searchstation/spam-defenders/main/blacklist_part.json?t=" + timestamp + "", function(json_part) {
     blacklist_part = json_part
   })
   
