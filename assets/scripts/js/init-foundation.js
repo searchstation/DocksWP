@@ -16,4 +16,6 @@ jQuery(document).foundation();
 
 // @codekit-append "motion.js";
 
+// @codekit-append "spam-defender.js";
+
 // @codekit-append "custom.js";
