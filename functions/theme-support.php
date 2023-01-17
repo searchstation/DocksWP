@@ -61,3 +61,16 @@ add_filter( 'gform_ajax_spinner_url', 'spinner_url', 10, 2 );
 function spinner_url( $image_src, $form ) {
     return get_stylesheet_directory_uri().'/assets/images/util/dot.png';
 }
+
+
+
+add_filter( 'gform_confirmation', 'gform_confirmation_push', 10, 4 );
+function gform_confirmation_push( $confirmation, $form, $entry, $ajax ) {
+    if ( ! is_string( $confirmation ) ) {
+        return $confirmation;
+    }
+    $form_title = rgar( $form, 'title' );
+    $entry_id = rgar( $entry, 'id' );
+    $confirmation .= GFCommon::get_inline_script_tag( "window.dataLayer.push({'event': 'generate_lead','Form': '$form_title', 'Entry' : ".$entry_id."});" );
+    return $confirmation;
+}
