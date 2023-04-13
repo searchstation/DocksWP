@@ -1,0 +1,72 @@
+{
+    "key": "group_63a096e65a3a2",
+    "title": "Page Meta",
+    "fields": [
+        {
+            "key": "field_63a0978e03622",
+            "label": "H1 Override",
+            "name": "h1_override",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Setting this to true will convert the default page title to a H2 tag. You can then add your own H1 tag within the content editor.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_63a096e6c4b43",
+            "label": "Page Intro",
+            "name": "page_intro",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Optional area for contnt to appear above the main content area. If using this, be sure to add a featured image for this page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 3,
+            "placeholder": "",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1680579079
+}
