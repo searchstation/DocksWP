@@ -1,8 +1,5 @@
-
-
 ul.checklist {
   list-style: none;
-  margin-left: 0.2rem;
 }
 ul.checklist li:before {
   content: '';
@@ -12,11 +9,47 @@ ul.checklist li:before {
   background-image: url('../images/util/Tick.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  padding-left: 1.2em;
+  padding-left: 1.2rem;
+  position: absolute;
+  top: 5px;
+  left: -15px;
+}
+ul.checklist li {
   position: relative;
-  top: 2px;
+  padding-left: 0.7rem;
 }
 
+ol.numbered-large {
+  list-style: none;
+  counter-reset: item;
+  margin-left: 3rem;
+  li {
+    position: relative;
+    counter-increment: item;
+    margin-bottom: 1rem;
+    b {
+      font-size: 1.2rem;
+      display: inline-block;
+    }
+    &:before {
+        content: counter(item);
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        display: inline-block;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: $primary-color;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: -3rem;
+        position: absolute;
+        font-weight: $global-weight-bold;
+        padding-top: 6px;
+
+    }
+  }
+}
 
 
 .color-white,

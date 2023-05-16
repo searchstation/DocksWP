@@ -7,7 +7,7 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34484",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -53,6 +53,22 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/acf-json\/group_61cea25607748-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/acf-json\/group_63a096e65a3a2.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_63a096e65a3a2-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/acf-json\/group_62126b34f383a.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_62126b34f383a-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -9096,20 +9112,28 @@
       "oAP" : "\/parts\/content\/content-page-sidebar.php",
       "oF" : 0
     },
-    "\/parts\/header\/header-page.php" : {
+    "\/parts\/header\/page-heading.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/parts\/header\/header-page.php",
+      "oAP" : "\/parts\/header\/page-heading.php",
       "oF" : 0
     },
-    "\/parts\/loop\/loop-page.php" : {
+    "\/parts\/header\/page-intro.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/parts\/loop\/loop-page.php",
+      "oAP" : "\/parts\/header\/page-intro.php",
+      "oF" : 0
+    },
+    "\/parts\/loop\/archive.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/loop\/archive.php",
       "oF" : 0
     },
     "\/parts\/loop\/loop-single.php" : {
@@ -9118,6 +9142,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/loop\/loop-single.php",
+      "oF" : 0
+    },
+    "\/parts\/loop\/page-content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/loop\/page-content.php",
+      "oF" : 0
+    },
+    "\/parts\/loop\/panel-blog.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/loop\/panel-blog.php",
+      "oF" : 0
+    },
+    "\/parts\/nav\/breadcrumbs.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/nav\/breadcrumbs.php",
       "oF" : 0
     },
     "\/parts\/nav\/nav-offcanvas-topbar.php" : {
@@ -10730,7 +10778,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -10786,7 +10834,10 @@
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -10795,36 +10846,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
