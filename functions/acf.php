@@ -27,5 +27,47 @@ if( function_exists('acf_add_options_page') ) {
 
 
 
+add_action('acf/init', 'docks_acf_faq');
+function docks_acf_faq() {
+
+    // Check function exists.
+    if( function_exists('acf_register_block_type') ) {
+
+        // Register a testimonial block.
+        acf_register_block_type(array(
+            'name'              => 'faq',
+            'title'             => __('FAQ'),
+            'description'       => __('An accordion of FAQs'),
+            'render_template'   => 'parts/blocks/faq.php',
+            'category'          => 'formatting',
+						'mode' => 'edit',
+						'supports' => array(	'mode' => false )
+
+        ));
+    }
+}
+
+add_action('acf/init', 'docks_acf_card_page');
+function docks_acf_card_page() {
+
+    // Check function exists.
+    if( function_exists('acf_register_block_type') ) {
+
+        // Register a testimonial block.
+        acf_register_block_type(array(
+            'name'              => 'card-page',
+            'title'             => __('Card Page'),
+            'description'       => __('Link to another page using a card'),
+            'render_template'   => 'parts/blocks/card-page.php',
+            'category'          => 'formatting',
+						'mode' => 'edit',
+						'supports' => array(	'mode' => false )
+
+        ));
+    }
+}
+
+
+
 
  ?>

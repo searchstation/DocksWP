@@ -4,7 +4,20 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 2em;
-	background: get-color(light-grey);
 	padding: 5rem 0rem 4rem;
+	border-top:1px solid get-color(medium-grey);
+	ul.menu.vertical {
+	margin-left: 0px;
+	padding-left: 0px;
+	li {
+		a {
+			font-size: $small-font-size;
+			margin-left: 0px;
+			padding:0px 0px 0.8rem 0px;
+		}
+	}
 }
- 
+p.address {
+	font-size: $small-font-size;
+}
+}

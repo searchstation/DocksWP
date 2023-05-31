@@ -8241,17 +8241,6 @@
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/assets\/scripts\/js\/cookie-bar.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/assets\/scripts\/js\/cookie-bar-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/assets\/scripts\/js\/custom.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -8344,21 +8333,6 @@
       "oA" : 0,
       "oAP" : "\/assets\/scripts\/scripts.min.js.map",
       "oF" : 0
-    },
-    "\/assets\/styles\/scss\/_cookie.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/styles\/scss\/_cookie.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
     },
     "\/assets\/styles\/scss\/_footer.scss" : {
       "aP" : 0,
@@ -9078,6 +9052,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page.php",
+      "oF" : 0
+    },
+    "\/parts\/blocks\/card-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/blocks\/card-page.php",
+      "oF" : 0
+    },
+    "\/parts\/blocks\/faq.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/blocks\/faq.php",
       "oF" : 0
     },
     "\/parts\/content\/content-byline.php" : {

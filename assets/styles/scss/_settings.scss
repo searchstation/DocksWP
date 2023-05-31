@@ -385,37 +385,7 @@ $dropdownmenu-submenu-padding: 0.8rem 1rem;
 $dropdownmenu-border: 1px solid white;
 $dropdown-menu-item-color-active: white;
 $dropdown-menu-item-background-active: transparent;
-header .menu li a {
-  color: white;
-}
-.dropdown .is-dropdown-submenu a {
-  line-height: 1.5;
-font-weight: normal;
-font-family: $body-font-family;
-color: get-color(primary);
-&:hover {
-  background: get-color(secondary);
-  color: white;
-}
-}
-.dropdown .is-dropdown-submenu li {
-  &:first-child a {
-    border-top:none;
-  }
-  a {
-  border-top:1px solid get-color(light-grey);
-}
-}
-.dropdown .submenu li.active a {
-color: $anchor-color;
-&:hover {
-  color: white;
-}
-}
-.dropdown .submenu {
-  box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
-  border-radius: $global-radius;
-}
+
 // 19. Flexbox Utilities
 // ---------------------
 
@@ -702,11 +672,19 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 60px,
-  medium: 40px,
+  small: 20px,
+  medium: 20px,
   large: 40px
 );
+
+$grid-container-padding: (
+  small: 40px,
+  medium: 100px,
+  large: 70px
+);
+
 $grid-padding-gutters: $grid-margin-gutters;
-$grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
+
+$themeColor: $primary-color !default;

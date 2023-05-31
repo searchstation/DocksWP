@@ -2,10 +2,78 @@
 HEADER STYLES
 *********************/
 .header-page {
-  color: white;
-  background-color: $primary-color;
+  color: $secondary-color;
   margin-bottom: $global-spacing;
   nav a {
-    color: white;
+    color: $secondary-color;
   }
+}
+
+header.header {
+  padding: 0.5rem 0rem;
+
+  border-bottom:1px solid get-color(medium-grey);
+  margin-bottom: 2rem;
+    z-index: 4000;
+    .header-phone {
+      font-weight: $global-weight-bold;
+    }
+  .menu li {
+    a {
+      color: $body-font-color;
+      font-size: rem-calc(16px);
+      font-size: 14px;
+      &.hover {
+        background: $primary-color;
+      }
+
+    }
+    &:last-child {
+      a {
+        padding-right:0px;
+      }
+    }
+  }
+
+  .menu.nested {
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      content:'';
+      height: 100%;
+      left: 0px;
+      top: -20px;
+      position: absolute;
+      border-left: 1px solid $body-font-color;
+    }
+
+    li a {
+    font-weight: $global-weight-normal;
+    position: relative;
+    font-size: 14px;
+    top: 50%;
+    border-left: 1px solid transparent;
+    left:1px;
+    &:before {
+      content:'';
+      width: 10px;
+      height: 1px;
+      left: -1px;
+      top:50%;
+      position: absolute;
+      background-color: $body-font-color;
+    }
+    &:hover {
+      background: $warning-color;
+      //border-left: 1px solid $body-font-color;
+    }
+  }
+}
+
+.hamburger-box {
+  height: 19px;
+  margin-left: 1rem;
+}
+
 }

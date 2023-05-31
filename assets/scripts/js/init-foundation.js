@@ -8,11 +8,8 @@ jQuery(document).foundation();
 
 // @codekit-append "../../../node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.min.js";
 
-// @codekit-append "../../../node_modules/rellax/rellax.js";
-
 // @codekit-append "../../../node_modules/swiper/swiper-bundle.js"
 
-// @codekit-append "cookie-bar.js";
 
 // @codekit-append "motion.js";
 
