@@ -7,7 +7,7 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
-  "creatorBuild" : "34484",
+  "creatorBuild" : "34513",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -9094,14 +9094,6 @@
       "oAP" : "\/parts\/content\/content-offcanvas.php",
       "oF" : 0
     },
-    "\/parts\/content\/content-page-sidebar.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/parts\/content\/content-page-sidebar.php",
-      "oF" : 0
-    },
     "\/parts\/header\/page-heading.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10148,9 +10140,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0

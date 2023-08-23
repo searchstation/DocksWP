@@ -19,7 +19,15 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
+  //Adds LightGallery supoprt to WP Galleries
+var elements = document.getElementsByClassName('wp-block-gallery');
+for (let item of elements) {
+  lightGallery(item, {
+    licenseKey: '0000-0000-000-0000',
+    speed: 300,
+    selector: 'figure a'
+  });
+}
 
 
   //Hamburger classes

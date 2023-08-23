@@ -9,6 +9,6 @@ get_header();
 
 get_template_part('/parts/header/header-page');
 
-get_template_part('/parts/content/content-page-sidebar');
+get_template_part('/parts/loop/page-content');
 
  get_footer(); ?>

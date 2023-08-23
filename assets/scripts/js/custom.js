@@ -1,9 +1,9 @@
 
 jQuery(document).ready(function() {
 
-  // Init Rellax
-  let rellax = new Rellax('.rellax', {
-
+  lightGallery(document.getElementById('lightgallery'), {
+      licenseKey: '0000-0000-000-0000',
+      speed: 300,
   });
 
 
