@@ -7,7 +7,7 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34513",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -172,110 +172,6 @@
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/Poppins-Bold.woff2",
       "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-500.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-500.eot",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-500.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-500.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-500.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-500.ttf",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-500.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-500.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-500.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-500.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-600.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-600.eot",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-600.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-600.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-600.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-600.ttf",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-600.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-600.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/poppins-v20-latin-600.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/poppins-v20-latin-600.woff2",
-      "oF" : 0
-    },
-    "\/assets\/images\/elevate-logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/elevate-logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/assets\/images\/elevate-r-logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/elevate-r-logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
     },
     "\/assets\/images\/fa\/500px.svg" : {
       "ft" : 2097152,
@@ -8228,32 +8124,6 @@
       "oAP" : "\/assets\/images\/favicon\/favicon.ico",
       "oF" : 0
     },
-    "\/assets\/images\/favicon\/mstile-70x70.png" : {
-      "ft" : 32768,
-      "iS" : 937,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/mstile-70x70.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon\/mstile-144x144.png" : {
-      "ft" : 32768,
-      "iS" : 941,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/mstile-144x144.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/images\/favicon\/mstile-150x150.png" : {
       "ft" : 32768,
       "iS" : 6537,
@@ -8266,42 +8136,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/assets\/images\/favicon\/mstile-310x150.png" : {
-      "ft" : 32768,
-      "iS" : 1300,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/mstile-310x150.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon\/mstile-310x310.png" : {
-      "ft" : 32768,
-      "iS" : 1647,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/mstile-310x310.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon\/safari-pinned-tab.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/favicon\/safari-pinned-tab.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
     },
     "\/assets\/images\/favicon\/site.webmanifest" : {
       "cB" : 0,
@@ -8316,16 +8150,6 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/images\/google-reviews.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/assets\/images\/powered-by-renewable.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/powered-by-renewable.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -9192,6 +9016,12 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -9208,36 +9038,12 @@
       "oO" : 0,
       "oS" : 1
     },
-    "\/page-templates\/about.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/about.php",
-      "oF" : 0
-    },
-    "\/page-templates\/contact.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/contact.php",
-      "oF" : 0
-    },
     "\/page-templates\/home.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-templates\/home.php",
-      "oF" : 0
-    },
-    "\/page-templates\/product-page.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/product-page.php",
       "oF" : 0
     },
     "\/page.php" : {
@@ -9437,7 +9243,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 576149231.35316896,
-    "displayValue" : "WIC Elevate - NEW",
+    "displayValue" : "DocksWP Master",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/assets\/images\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
@@ -10959,7 +10765,7 @@
     "npmAbbreviatedPath" : "",
     "npmCreatePackageLock" : 1,
     "npmInstallOptionalDependencies" : 1,
-    "npmSaveExactVersion" : 1,
+    "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
     "previewPathAddition" : "",
