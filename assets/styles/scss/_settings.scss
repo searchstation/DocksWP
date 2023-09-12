@@ -42,6 +42,34 @@
 
 @import '../../../node_modules/foundation-sites/scss/util/util';
 
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
 // 1. Global
 // ---------
 
@@ -49,20 +77,20 @@ $global-font-size: 1rem;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #000540,
-  secondary: #f18139,
+  primary: #35A8E0,
+  secondary: #222222,
   success: #2ecc71,
   warning: #e74c3c,
   alert: #3498db,
   custom: #ccc,
   light-grey: #f3f3f9,
   medium-grey: #ccc,
-  dark-grey: #555,
+  dark-grey: #3C3C3B,
 );
 
 $body-background: white;
 $body-font-color: get-color(dark-grey);
-$body-font-family: Helvetica,Arial,sans-serif;
+$body-font-family: 'Poppins',Helvetica,Arial,sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -132,7 +160,7 @@ $block-grid-max: 8;
 }
 
 $header-font-family:'Poppins', Helvetica,Arial,sans-serif;;
-$header-font-weight: bold;
+$header-font-weight: 600;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
